@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>416152887316-e1prcpjqlqq3e44s7bq8dnvfnrmrmnnq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.416152887316-e1prcpjqlqq3e44s7bq8dnvfnrmrmnnq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD7NKrs3RNNHFlcVtj_RGMOysyG4LLv1To</string>
+	<key>GCM_SENDER_ID</key>
+	<string>416152887316</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.niceDay</string>
+	<key>PROJECT_ID</key>
+	<string>niceday-5e3e6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>niceday-5e3e6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:416152887316:ios:58729a0e1ab143d0aac701</string>
+	<key>DATABASE_URL</key>
+	<string>https://niceday-5e3e6.firebaseio.com</string>
+</dict>
+</plist>
