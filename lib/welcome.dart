@@ -2,9 +2,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:nice_day/signin.dart';
-
 import 'login.dart';
 
+// ignore: camel_case_types
 class welcome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
