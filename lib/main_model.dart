@@ -13,4 +13,16 @@ class MainModel extends ChangeNotifier {
     this.dayList = dayList;
     notifyListeners();
   }
+
+  void getDayListRealtime(){
+    final snapshots =
+        FirebaseFirestore.instance.collection('dayList').snapshots();
+    snapshots.listen((snapshot){
+      final docs = snapshot.docs;
+      final dayList = docs.map((doc) => Day(doc)).toList();
+      dayList.sort((a,b) => b.createdAt.compareTo(a.createdAt));
+      this.dayList = dayList;
+      notifyListeners();
+    });
+  }
 }

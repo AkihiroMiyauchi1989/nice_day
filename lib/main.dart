@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
        title:  'NiceDay',
        home: ChangeNotifierProvider<MainModel>(
-         create: (_) => MainModel()..getNiceDay(),
+         create: (_) => MainModel()..getDayListRealtime(),
          child: Scaffold(
             appBar: AppBar(
               title: Text('NiceDay'),
