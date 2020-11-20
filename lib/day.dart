@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Day{
   Day(DocumentSnapshot doc){
+    this.documentReference = doc.reference;
     this.title = doc.data()['title'];
 
     final Timestamp timestamp = doc.data()['createdAt'];
@@ -10,4 +11,6 @@ class Day{
 
   String title;
   DateTime createdAt;
+  bool isDone = false;
+  DocumentReference documentReference;
 }
